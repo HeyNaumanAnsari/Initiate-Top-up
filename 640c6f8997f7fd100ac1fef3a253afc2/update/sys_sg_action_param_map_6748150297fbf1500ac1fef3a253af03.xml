@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (All Request)">eb48d10297fbf1500ac1fef3a253affa</button>
+        <item_parameter display_value="All Request employee_details">2348d10297fbf1500ac1fef3a253afde</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 05:45:38</sys_created_on>
+        <sys_id>6748150297fbf1500ac1fef3a253af03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2348d10297fbf1500ac1fef3a253afde</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_6748150297fbf1500ac1fef3a253af03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:45:38</sys_updated_on>
+        <ui_parameter display_value="Employee Details">2348d10297fbf1500ac1fef3a253affc</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

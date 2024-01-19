@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0429fba997ff71500ac1fef3a253afa9" label="TTC Request Details" max_length="40" name="x_1020172_initia_0_ttc_request_details" type="collection">
-        <element label="Comments" max_length="400" name="comments" type="string"/>
+        <element label="Comments" max_length="400" name="comments" type="journal_input"/>
+        <element label="Employee Details" max_length="32" name="employee_details" reference="x_1020172_initia_0_ttc_employee_details" type="reference"/>
         <element label="From Date" max_length="40" name="from_date" type="glide_date"/>
         <element label="Is Money Loaded" max_length="40" name="is_money_loaded" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
@@ -8,8 +9,15 @@
         <element label="Status" max_length="40" name="status" type="string"/>
         <element label="To Date" max_length="40" name="to_date" type="glide_date"/>
         <element label="Visa Copy" max_length="40" name="visa_copy" type="string"/>
+        <element label="Visa Details" max_length="32" name="visa_details" reference="x_1020172_initia_0_ttc_visa_attachment_details" type="reference"/>
         <index name="index">
+            <element name="employee_details"/>
+        </index>
+        <index name="index2">
             <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="visa_details"/>
         </index>
     </element>
 </database>
