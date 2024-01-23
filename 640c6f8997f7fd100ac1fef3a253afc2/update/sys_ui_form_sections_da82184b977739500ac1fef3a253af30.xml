@@ -6,13 +6,13 @@
             <sys_created_on>2024-01-22 03:14:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1a82184b977739500ac1fef3a253af35</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>5682184b977739500ac1fef3a253af91</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1020172_initia_0_ttc_request_details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">da82184b977739500ac1fef3a253af30</sys_ui_form>
-            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">d282184b977739500ac1fef3a253af34</sys_ui_section>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-22 03:14:44</sys_updated_on>
+            <sys_updated_on>2024-01-23 15:22:50</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -20,13 +20,13 @@
             <sys_created_on>2024-01-22 03:14:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5682184b977739500ac1fef3a253af91</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>1a82184b977739500ac1fef3a253af35</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1020172_initia_0_ttc_request_details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">da82184b977739500ac1fef3a253af30</sys_ui_form>
-            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">d282184b977739500ac1fef3a253af34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-22 03:14:44</sys_updated_on>
+            <sys_updated_on>2024-01-23 15:22:50</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1020172_initia_0_ttc_request_details</name>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="292fe1f1977bb1500ac1fef3a253af7a" extends="task" label="Top-Up Request" max_length="40" name="x_1020172_initia_0_ttc_task_details" text_index="true" type="collection">
+        <element label="Amount to be loaded" max_length="40" name="amount_to_be_loaded" type="string"/>
+        <element label="Bank" max_length="40" name="bank" type="string"/>
+        <element label="Card" max_length="40" name="card" type="string"/>
+        <element label="Currency to be loaded" max_length="40" name="currency_to_be_loaded" type="string"/>
+        <element label="From Date" max_length="40" name="from_date" type="glide_date"/>
+        <element label="Is Money Loaded" max_length="40" name="is_money_loaded" type="boolean"/>
+        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element label="Request Details" max_length="32" name="request_details" reference="x_1020172_initia_0_ttc_request_details" type="reference"/>
         <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="To Date" max_length="40" name="to_date" type="glide_date"/>
+        <element label="Visa Copy" max_length="40" name="visa_copy" type="file_attachment"/>
     </element>
 </database>

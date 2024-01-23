@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Account Manager Approval For Top-up Requ" section_id="0a82d44b977739500ac1fef3a253afab" sys_domain="global" table="x_1020172_initia_0_ttc_task_details" version="3" view="Workspace-Top-Up-Request-Workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>f2c5235397fbb9500ac1fef3a253af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_details.employee_details.number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>f6c5235397fbb9500ac1fef3a253af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by.name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>fac5235397fbb9500ac1fef3a253af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by.mobile_phone</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>fec5235397fbb9500ac1fef3a253af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_details.employee_details.bank_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>f2c5235397fbb9500ac1fef3a253af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>f6c5235397fbb9500ac1fef3a253af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>fac5235397fbb9500ac1fef3a253af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_details.employee_details.project</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>fec5235397fbb9500ac1fef3a253af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by.email</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>f2c5235397fbb9500ac1fef3a253af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_details.employee_details.manager</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>f6c5235397fbb9500ac1fef3a253af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_details.employee_details.card_number</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>fac5235397fbb9500ac1fef3a253af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>fec5235397fbb9500ac1fef3a253af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-23 13:16:13</sys_created_on>
+            <sys_id>f2c5235397fbb9500ac1fef3a253af8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account Manager Approval For Top-up Requ" display_value="Account Manager Approval For Top-up Requ" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">0a82d44b977739500ac1fef3a253afab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Account Manager Approval For Top-up Requ</caption>
+            <header>false</header>
+            <name>x_1020172_initia_0_ttc_task_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-22 03:14:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a82d44b977739500ac1fef3a253afab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1020172_initia_0_ttc_task_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+            <sys_update_name>sys_ui_section_0a82d44b977739500ac1fef3a253afab</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-23 13:16:13</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Top Up Request Workspace 0" name="Workspace-Top-Up-Request-Workspace-0">4462540bcd77395013585e260f11a765</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

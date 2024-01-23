@@ -5,11 +5,15 @@
         <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
         <element label="Document" max_length="40" name="document" type="document_id"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request Details" max_length="32" name="request_details" reference="x_1020172_initia_0_ttc_request_details" type="reference"/>
         <index name="index">
             <element name="added_by"/>
         </index>
         <index name="index2">
             <element name="document"/>
+        </index>
+        <index name="index3">
+            <element name="request_details"/>
         </index>
     </element>
 </database>
