@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_1020172_initia_0_ttc_request_details,x_1020172_initia_0_ttc_visa_attachment_details,x_1020172_initia_0_ttc_user_details,x_1020172_initia_0_ttc_employee_details,x_1020172_initia_0_ttc_task_details</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>Top-Up Request Workspace search profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_1020172_initia_0_top_up_request_workspace_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>DRAFT</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 03:14:40</sys_created_on>
+        <sys_id>cd82544b977739500ac1fef3a253afde</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1020172_initia_0_top_up_request_workspace_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>ais_dictionary_cd82544b977739500ac1fef3a253afde</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 03:14:41</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="New Button (All Request)">df48d10297fbf1500ac1fef3a253afc0</button>
+        <button_parent_table>x_1020172_initia_0_ttc_request_details</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>number</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Number</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 05:45:38</sys_created_on>
+        <sys_id>1748d10297fbf1500ac1fef3a253afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_1748d10297fbf1500ac1fef3a253afc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:45:38</sys_updated_on>
+        <table_name>x_1020172_initia_0_ttc_request_details</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="DELETE" query="documentkey=1748d10297fbf1500ac1fef3a253afc4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</application>
+        <file_path/>
+        <instance_id>6937715cdb81ff8042b321c405961910</instance_id>
+        <instance_name>dev82748</instance_name>
+        <name>sys_sg_ui_parameter_1748d10297fbf1500ac1fef3a253afc4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="New Button (All Request)">df48d10297fbf1500ac1fef3a253afc0</button><button_parent_table>x_1020172_initia_0_ttc_request_details</button_parent_table><carried>false</carried><constant/><default_value/><default_value_type>source_field</default_value_type><field_name>number</field_name><input_source>user</input_source><input_style>inline</input_style><input_type>text</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>Number</name><order/><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-19 05:45:38</sys_created_on><sys_id>1748d10297fbf1500ac1fef3a253afc4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package><sys_policy/><sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope><sys_update_name>sys_sg_ui_parameter_1748d10297fbf1500ac1fef3a253afc4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-19 05:45:38</sys_updated_on><table_name>x_1020172_initia_0_ttc_request_details</table_name><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter><sys_translated_text action="delete_multiple" query="documentkey=1748d10297fbf1500ac1fef3a253afc4"/></record_update>]]></payload>
+        <payload_hash>-926601242</payload_hash>
+        <record_name>Number</record_name>
+        <reverted_from/>
+        <source>8d7264e597ff31500ac1fef3a253af92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 05:45:40</sys_created_on>
+        <sys_id>3748550297fbf1500ac1fef3a253af19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d2040e3b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:45:40</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>bf485502d4fbf150167c7f9293ac9818</update_guid>
+        <update_guid_history>bf485502d4fbf150167c7f9293ac9818:-926601242</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 12:47:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>9caa55bda7c24f1c875c0bfdbe54f310</sys_id>
+        <sys_metadata>1748d10297fbf1500ac1fef3a253afc4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_scope_delete display_value="">a719d5f7d16944b4932ff70047823aa4</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_1748d10297fbf1500ac1fef3a253afc4</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_1748d10297fbf1500ac1fef3a253afc4">3748550297fbf1500ac1fef3a253af19</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 12:47:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

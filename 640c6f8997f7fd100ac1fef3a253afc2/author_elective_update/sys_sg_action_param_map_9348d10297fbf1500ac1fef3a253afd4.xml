@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="New Button (All Request)">df48d10297fbf1500ac1fef3a253afc0</button>
+        <item_parameter display_value="All Request number">df48d10297fbf1500ac1fef3a253afbd</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 05:45:38</sys_created_on>
+        <sys_id>9348d10297fbf1500ac1fef3a253afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>df48d10297fbf1500ac1fef3a253afbd</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_9348d10297fbf1500ac1fef3a253afd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:45:38</sys_updated_on>
+        <ui_parameter display_value="Number">1748d10297fbf1500ac1fef3a253afc4</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</application>
+        <file_path/>
+        <instance_id>6937715cdb81ff8042b321c405961910</instance_id>
+        <instance_name>dev82748</instance_name>
+        <name>sys_sg_action_param_map_9348d10297fbf1500ac1fef3a253afd4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="New Button (All Request)">df48d10297fbf1500ac1fef3a253afc0</button><item_parameter display_value="All Request number">df48d10297fbf1500ac1fef3a253afbd</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-19 05:45:38</sys_created_on><sys_id>9348d10297fbf1500ac1fef3a253afd4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>df48d10297fbf1500ac1fef3a253afbd</sys_name><sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package><sys_policy/><sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope><sys_update_name>sys_sg_action_param_map_9348d10297fbf1500ac1fef3a253afd4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-19 05:45:38</sys_updated_on><ui_parameter display_value="Number">1748d10297fbf1500ac1fef3a253afc4</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>2065722589</payload_hash>
+        <record_name>df48d10297fbf1500ac1fef3a253afbd</record_name>
+        <reverted_from/>
+        <source>8d7264e597ff31500ac1fef3a253af92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 05:45:40</sys_created_on>
+        <sys_id>8058950297fbf1500ac1fef3a253af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d2040e6ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:45:40</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>0c589502c8fbf1506fc090c754cc4713</update_guid>
+        <update_guid_history>0c589502c8fbf1506fc090c754cc4713:2065722589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 12:47:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>2002736585e741a8be9ce082e3b93531</sys_id>
+        <sys_metadata>9348d10297fbf1500ac1fef3a253afd4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>df48d10297fbf1500ac1fef3a253afbd</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_scope_delete display_value="">a719d5f7d16944b4932ff70047823aa4</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_9348d10297fbf1500ac1fef3a253afd4</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_9348d10297fbf1500ac1fef3a253afd4">8058950297fbf1500ac1fef3a253af14</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 12:47:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

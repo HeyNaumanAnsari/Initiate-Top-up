@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Top-Up Request Workspace">8862540bf7773950627e6afaac740662</dashboard>
+        <group/>
+        <role display_value="x_1020172_initia_0.hr_member" name="x_1020172_initia_0.hr_member">fc0c6f8997f7fd100ac1fef3a253afcc</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 03:14:06</sys_created_on>
+        <sys_id>4162940b977739500ac1fef3a253af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8862540bf7773950627e6afaac740662</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>par_dashboard_permission_4162940b977739500ac1fef3a253af62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 03:14:06</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

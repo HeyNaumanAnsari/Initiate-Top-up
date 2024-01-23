@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="292fe1f1977bb1500ac1fef3a253af7a" extends="task" label="TTC Task Details" max_length="40" name="x_1020172_initia_0_ttc_task_details" type="collection">
+    <element db_object_id="292fe1f1977bb1500ac1fef3a253af7a" extends="task" label="Top-Up Request" max_length="40" name="x_1020172_initia_0_ttc_task_details" text_index="true" type="collection">
         <element label="Request Details" max_length="32" name="request_details" reference="x_1020172_initia_0_ttc_request_details" type="reference"/>
         <element label="Status" max_length="40" name="status" type="string"/>
     </element>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="da82184b977739500ac1fef3a253af30" sys_domain="global" table="x_1020172_initia_0_ttc_request_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-22 03:14:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a82184b977739500ac1fef3a253af35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1020172_initia_0_ttc_request_details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">da82184b977739500ac1fef3a253af30</sys_ui_form>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">d282184b977739500ac1fef3a253af34</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-22 03:14:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-22 03:14:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5682184b977739500ac1fef3a253af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1020172_initia_0_ttc_request_details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">da82184b977739500ac1fef3a253af30</sys_ui_form>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-22 03:14:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1020172_initia_0_ttc_request_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-22 03:14:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da82184b977739500ac1fef3a253af30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1020172_initia_0_ttc_request_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_da82184b977739500ac1fef3a253af30</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-22 03:14:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Top Up Request Workspace 0" name="Workspace-Top-Up-Request-Workspace-0">4462540bcd77395013585e260f11a765</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

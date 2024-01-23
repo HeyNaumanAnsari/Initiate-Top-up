@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="566a376d97ff71500ac1fef3a253af16" label="TTC Visa Attachment Details" max_length="40" name="x_1020172_initia_0_ttc_visa_attachment_details" type="collection">
+    <element db_object_id="566a376d97ff71500ac1fef3a253af16" label="TTC Visa Attachment Details" max_length="40" name="x_1020172_initia_0_ttc_visa_attachment_details" text_index="true" type="collection">
+        <element label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
+        <element label="Added by" max_length="32" name="added_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
+        <element label="Document" max_length="40" name="document" type="document_id"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="added_by"/>
+        </index>
+        <index name="index2">
+            <element name="document"/>
+        </index>
     </element>
 </database>

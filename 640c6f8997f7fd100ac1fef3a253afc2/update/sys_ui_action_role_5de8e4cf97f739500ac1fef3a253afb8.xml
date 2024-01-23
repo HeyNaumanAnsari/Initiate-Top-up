@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 04:53:46</sys_created_on>
+        <sys_id>5de8e4cf97f739500ac1fef3a253afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1020172_initia_0.finance_member</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_ui_action display_value="Send Back">b0d8284f97f739500ac1fef3a253af99</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_5de8e4cf97f739500ac1fef3a253afb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 04:53:46</sys_updated_on>
+        <sys_user_role display_value="x_1020172_initia_0.finance_member" name="x_1020172_initia_0.finance_member">280c6f8997f7fd100ac1fef3a253afc8</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

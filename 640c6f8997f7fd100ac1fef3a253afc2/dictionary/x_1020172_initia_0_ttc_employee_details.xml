@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0ecdbb619733b1500ac1fef3a253af68" label="TTC Employee Details" max_length="40" name="x_1020172_initia_0_ttc_employee_details" type="collection">
-        <element label="Added By" max_length="32" name="added_by" reference="sys_user" type="reference"/>
+    <element db_object_id="0ecdbb619733b1500ac1fef3a253af68" label="TTC Employee Details" max_length="40" name="x_1020172_initia_0_ttc_employee_details" text_index="true" type="collection">
+        <element label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
+        <element label="Added By" max_length="32" name="added_by" read_only="true" reference="sys_user" type="reference"/>
         <element label="Card Number" max_length="40" name="card_number" type="string"/>
         <element label="Contact" max_length="40" name="contact" type="string"/>
         <element label="Email" max_length="40" name="email" type="string"/>
         <element label="Manager" max_length="40" name="manager" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Project" max_length="40" name="project" type="string"/>
         <index name="index">
             <element name="added_by"/>
