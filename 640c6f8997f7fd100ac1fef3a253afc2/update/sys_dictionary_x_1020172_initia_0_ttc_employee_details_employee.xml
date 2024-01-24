@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="added_by" table="x_1020172_initia_0_ttc_employee_details">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="employee" table="x_1020172_initia_0_ttc_employee_details">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,10 +8,10 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Added By</column_label>
+        <column_label>Employee</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:gs.getUserID();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -19,9 +19,9 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value display_value="Sender">2fd8e97bef3221002841f7f775c0fbc1</dynamic_default_value>
+        <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>added_by</element>
+        <element>employee</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -33,7 +33,7 @@
         <name>x_1020172_initia_0_ttc_employee_details</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
@@ -46,19 +46,19 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-19 04:34:25</sys_created_on>
-        <sys_name>Added By</sys_name>
+        <sys_created_on>2024-01-23 16:13:33</sys_created_on>
+        <sys_name>Employee</sys_name>
         <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
-        <sys_update_name>sys_dictionary_x_1020172_initia_0_ttc_employee_details_added_by</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1020172_initia_0_ttc_employee_details_employee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-24 03:54:38</sys_updated_on>
+        <sys_updated_on>2024-01-23 16:13:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>true</use_dynamic_default>
+        <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>
