@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="from_date" label="From Date" language="en" table="x_1020172_initia_0_ttc_task_details">
+    <sys_documentation element="request_details" label="Request Details" language="en" table="var__m_sys_hub_flow_input_c0b8898a977bf1500ac1fef3a253af63">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>from_date</element>
+            <element>request_details</element>
             <help/>
             <hint/>
-            <label>From Date</label>
+            <label>Request Details</label>
             <language>en</language>
-            <name>x_1020172_initia_0_ttc_task_details</name>
+            <name>var__m_sys_hub_flow_input_c0b8898a977bf1500ac1fef3a253af63</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 04:12:03</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>From Date</sys_name>
+            <sys_created_on>2024-01-19 04:41:02</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Details</sys_name>
             <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
             <sys_policy/>
             <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
-            <sys_update_name>sys_documentation_x_1020172_initia_0_ttc_task_details_from_date_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c0b8898a977bf1500ac1fef3a253af63_request_details_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 04:12:06</sys_updated_on>
+            <sys_updated_on>2024-01-19 04:41:02</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

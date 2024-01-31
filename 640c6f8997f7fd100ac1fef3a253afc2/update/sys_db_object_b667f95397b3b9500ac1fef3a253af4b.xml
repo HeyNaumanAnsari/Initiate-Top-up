@@ -13,11 +13,11 @@
         <label>test</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1020172_initia_0_test</name>
-        <number_ref display_value="TRTEST">5767f95397b3b9500ac1fef3a253af9e</number_ref>
+        <number_ref display_value="">5767f95397b3b9500ac1fef3a253af9e</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">00598f86c51021108c8b506e733c4c9f</super_class>
+        <super_class display_value="Task" name="task">838574397d31311076daf29f52070d17</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-23 05:13:59</sys_created_on>

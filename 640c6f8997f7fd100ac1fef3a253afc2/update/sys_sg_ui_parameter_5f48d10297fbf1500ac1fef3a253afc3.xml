@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
     <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
-        <button display_value="New Button (All Request)">df48d10297fbf1500ac1fef3a253afc0</button>
+        <button display_value="New Top-Up Request">df48d10297fbf1500ac1fef3a253afc0</button>
         <button_parent_table>x_1020172_initia_0_ttc_request_details</button_parent_table>
         <carried>false</carried>
         <constant/>

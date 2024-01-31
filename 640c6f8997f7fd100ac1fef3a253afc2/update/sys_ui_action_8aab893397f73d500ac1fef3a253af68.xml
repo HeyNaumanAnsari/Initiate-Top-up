@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.request_details.status==9)</condition>
+        <condition>(current.status==9)</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>true</form_button_v2>
@@ -30,7 +30,8 @@
         <name>Re-Submit</name>
         <onclick/>
         <order>100</order>
-        <script/>
+        <script><![CDATA[current.status=1;
+current.update();]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -41,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8aab893397f73d500ac1fef3a253af68</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Re-Submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
@@ -49,7 +50,7 @@
         <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
         <sys_update_name>sys_ui_action_8aab893397f73d500ac1fef3a253af68</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-24 16:00:23</sys_updated_on>
+        <sys_updated_on>2024-01-30 03:53:50</sys_updated_on>
         <table>x_1020172_initia_0_ttc_request_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

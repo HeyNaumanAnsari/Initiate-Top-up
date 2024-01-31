@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0429fba997ff71500ac1fef3a253afa9" label="TTC Request Details" max_length="40" name="x_1020172_initia_0_ttc_request_details" text_index="true" type="collection">
-        <element label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
-        <element label="Amount to be loaded" max_length="40" name="amount_to_be_loaded" type="string"/>
+    <element audit="true" db_object_id="0429fba997ff71500ac1fef3a253afa9" label="TTC Request Details" max_length="40" name="x_1020172_initia_0_ttc_request_details" text_index="true" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
+        <element label="Activity Stream" max_length="32" name="activity_stream" reference="sn_actsub_activity_stream" type="reference"/>
+        <element label="Amount to be loaded" mandatory="true" max_length="40" name="amount_to_be_loaded" type="string"/>
         <element label="Comments" max_length="400" name="comments" type="journal_input"/>
-        <element label="Currency to be loaded" max_length="40" name="currency_to_be_loaded" type="string"/>
+        <element label="Currency to be loaded" mandatory="true" max_length="40" name="currency_to_be_loaded" type="string"/>
         <element default="javascript:var gr = new GlideRecord('x_1020172_initia_0_ttc_employee_details'); gr.addQuery('employee', current.requested_by); gr.addActiveQuery(); gr.query(); gs.info('from dynamic filter'+ gr); gr.sys_id" dynamic_default_value="3d2727ef97bff9500ac1fef3a253af10" label="Employee Details" max_length="32" name="employee_details" reference="x_1020172_initia_0_ttc_employee_details" type="reference" use_dynamic_default="true"/>
-        <element label="From Date" max_length="40" name="from_date" type="glide_date"/>
+        <element label="From Date" mandatory="true" max_length="40" name="from_date" type="glide_date"/>
         <element label="Is Money Loaded" max_length="40" name="is_money_loaded" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Requested By" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
@@ -23,16 +24,19 @@
                 <element inactive_on_update="false" label="New" sequence="9" value="10"/>
             </choice>
         </element>
-        <element label="To Date" max_length="40" name="to_date" type="glide_date"/>
-        <element label="Visa Copy" max_length="40" name="visa_copy" type="file_attachment"/>
+        <element label="To Date" mandatory="true" max_length="40" name="to_date" type="glide_date"/>
+        <element label="Visa Copy" mandatory="true" max_length="40" name="visa_copy" type="file_attachment"/>
         <element label="Visa Details" max_length="32" name="visa_details" reference="x_1020172_initia_0_ttc_visa_attachment_details" type="reference"/>
         <index name="index">
-            <element name="employee_details"/>
+            <element name="activity_stream"/>
         </index>
         <index name="index2">
-            <element name="requested_by"/>
+            <element name="employee_details"/>
         </index>
         <index name="index3">
+            <element name="requested_by"/>
+        </index>
+        <index name="index4">
             <element name="visa_details"/>
         </index>
     </element>

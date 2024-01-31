@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
     <sys_sg_button_instance action="INSERT_OR_UPDATE">
         <active>true</active>
-        <button display_value="New Button (All Request)">df48d10297fbf1500ac1fef3a253afc0</button>
+        <button display_value="New Top-Up Request">df48d10297fbf1500ac1fef3a253afc0</button>
         <color_theme/>
         <description/>
         <disable_offline>false</disable_offline>

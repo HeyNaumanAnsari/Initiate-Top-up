@@ -10,6 +10,7 @@
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="Flag">af48150297fbf1500ac1fef3a253af5a</icon>
         <name>My Task</name>
+        <parameter_screen/>
         <roles_override/>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>

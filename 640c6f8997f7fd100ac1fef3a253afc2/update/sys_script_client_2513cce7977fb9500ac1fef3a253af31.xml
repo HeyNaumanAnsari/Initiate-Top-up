@@ -32,20 +32,23 @@
         empl.addParam('sysparm_employee', requested);
         empl.getXML(callback);
         alert('inside condition');
+    } else {
+        g_form.setReadOnly('employee_details.card_number', true);
+        g_form.setReadOnly('employee_details.bank_name', true);
     }
 
     function callback(response) {
         var answer1 = response.responseXML.documentElement.getAttribute("answer");
         if (answer1 != '1') {
             var json = JSON.parse(answer1);
-            if (json.card_number != '') {
+            if (json.card_number != '' || json.bank_name != '') {
                 alert('json');
                 g_form.setValue('employee_details.card_number', json.card_number);
                 g_form.setValue('employee_details.bank_name', json.bank_name);
-                //                 g_form.setReadOnly('employee_details.card_number', true);
-                //                 g_form.setReadOnly('employee_details.bank_name', true);
+                g_form.setReadOnly('employee_details.card_number', true);
+                g_form.setReadOnly('employee_details.bank_name', true);
             }
-            alert('callback | ' + json.name+ ' | ' + json.contact);
+            alert('callback | ' + json.name + ' | ' + json.contact);
             g_form.setValue('employee_details.name', json.name);
             g_form.setValue('employee_details.contact', json.contact);
             g_form.setValue('employee_details.project', json.project);
@@ -65,28 +68,30 @@
 
 
 
-    if (isNew && cNumber == '') {
-        g_form.setReadOnly('employee_details.bank_name', false);
-        g_form.setReadOnly('employee_details.card_number', false);
-    } else {
-        g_form.setReadOnly('employee_details.bank_name', true);
-        g_form.setReadOnly('employee_details.card_number', true);
-    }
+    //     if (isNew && cNumber == '') {
+    //         g_form.setReadOnly('employee_details.bank_name', false);
+    //         g_form.setReadOnly('employee_details.card_number', false);
+    //     } else {
+    //         g_form.setReadOnly('employee_details.bank_name', true);
+    //         g_form.setReadOnly('employee_details.card_number', true);
+    //     }
 
 
     if (!isNew && (requested == g_user.userID) && (status == 1 || status == 10)) {
-
-        g_form.setReadOnly('to_date', true);
-        g_form.setReadOnly('from_date', true);
-        g_form.setReadOnly('amount_to_be_loaded', true);
-        g_form.setReadOnly('currency_to_be_loaded', true);
-        g_form.setReadOnly('requested_by', true);
-
-    } else {
         g_form.setReadOnly('to_date', false);
         g_form.setReadOnly('from_date', false);
         g_form.setReadOnly('amount_to_be_loaded', false);
         g_form.setReadOnly('currency_to_be_loaded', false);
+        g_form.setReadOnly('requested_by', false);
+
+    } else {
+        g_form.setReadOnly('to_date', true);
+        g_form.setReadOnly('from_date', true);
+        g_form.setReadOnly('amount_to_be_loaded', true);
+        g_form.setReadOnly('currency_to_be_loaded', true);
+		g_form.setReadOnly('visa_copy',true);
+		g_form.setReadOnly('is_money_loaded',true);
+		
     }
 
 }]]></script>
@@ -96,7 +101,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2513cce7977fb9500ac1fef3a253af31</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Top-Up: On Load</sys_name>
         <sys_overrides/>
         <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
@@ -104,7 +109,7 @@
         <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
         <sys_update_name>sys_script_client_2513cce7977fb9500ac1fef3a253af31</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-25 05:46:10</sys_updated_on>
+        <sys_updated_on>2024-01-30 09:35:30</sys_updated_on>
         <table>x_1020172_initia_0_ttc_request_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

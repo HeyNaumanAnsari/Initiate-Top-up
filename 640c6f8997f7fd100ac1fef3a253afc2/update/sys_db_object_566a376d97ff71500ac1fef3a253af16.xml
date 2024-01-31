@@ -13,7 +13,7 @@
         <label>TTC Visa Attachment Details</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1020172_initia_0_ttc_visa_attachment_details</name>
-        <number_ref display_value="TTCVAD">aa6a376d97ff71500ac1fef3a253af37</number_ref>
+        <number_ref display_value="">aa6a376d97ff71500ac1fef3a253af37</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

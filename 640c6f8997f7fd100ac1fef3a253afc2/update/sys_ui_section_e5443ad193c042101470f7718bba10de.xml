@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="HR Approval For Top-up Request" section_id="e5443ad193c042101470f7718bba10de" sys_domain="global" table="x_1020172_initia_0_ttc_task_details" version="3" view="Workspace_Top_Up_Request_HR">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 14:52:50</sys_created_on>
+            <sys_id>f075b25593c042101470f7718bba1078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Approval For Top-up Request" display_value="HR Approval For Top-up Request" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="2d443ad193c042101470f7718bba10da">e5443ad193c042101470f7718bba10de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 14:52:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 14:52:50</sys_created_on>
+            <sys_id>7475b25593c042101470f7718bba1078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Approval For Top-up Request" display_value="HR Approval For Top-up Request" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="2d443ad193c042101470f7718bba10da">e5443ad193c042101470f7718bba10de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 14:52:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 14:52:50</sys_created_on>
+            <sys_id>f475b25593c042101470f7718bba1078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Approval For Top-up Request" display_value="HR Approval For Top-up Request" name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="2d443ad193c042101470f7718bba10da">e5443ad193c042101470f7718bba10de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 14:52:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>HR Approval For Top-up Request</caption>
+            <header>false</header>
+            <name>x_1020172_initia_0_ttc_task_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 14:47:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5443ad193c042101470f7718bba10de</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1020172_initia_0_ttc_task_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+            <sys_update_name>sys_ui_section_e5443ad193c042101470f7718bba10de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 14:52:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Top Up Request HR" name="Workspace_Top_Up_Request_HR">2d443ad193c042101470f7718bba10da</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

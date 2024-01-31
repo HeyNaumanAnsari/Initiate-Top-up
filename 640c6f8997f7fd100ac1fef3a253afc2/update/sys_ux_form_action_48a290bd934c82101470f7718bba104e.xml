@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Send Back</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 16:18:25</sys_created_on>
+        <sys_id>48a290bd934c82101470f7718bba104e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Back</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_ux_form_action_48a290bd934c82101470f7718bba104e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 16:18:25</sys_updated_on>
+        <table>x_1020172_initia_0_ttc_task_details</table>
+        <ui_action display_value="Send Back">7af8a665934482101470f7718bba10a3</ui_action>
+    </sys_ux_form_action>
+</record_update>

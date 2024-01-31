@@ -5,9 +5,6 @@
         <name>chrome_tab</name>
         <page display_value="Top-Up Request Workspace">cc62540b7b773950c42405dcb29fb162</page>
         <required_translations>[ {
-  "message" : "New Task",
-  "comment" : ""
-}, {
   "message" : "New Top-Up Request",
   "comment" : ""
 } ]</required_translations>
@@ -19,17 +16,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>0862540b78773950f8e0a1d702a56966</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>chrome_tab</sys_name>
         <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
         <sys_update_name>sys_ux_page_property_0862540b78773950f8e0a1d702a56966</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-23 07:09:31</sys_updated_on>
+        <sys_updated_on>2024-01-30 03:41:57</sys_updated_on>
         <type>json</type>
         <unique_name>x_1020172_initia_0.cc62540b7b773950c42405dcb29fb162.root.chrome_tab</unique_name>
-        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Task"},"routeInfo":{"route":"record","fields":{"table":"x_1020172_initia_0_ttc_task_details","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Top-Up Request"},"routeInfo":{"route":"record","fields":{"table":"x_1020172_initia_0_ttc_request_details","sysId":"-1"},"multiInstField":"sysId"}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Top-Up Request"},"routeInfo":{"route":"record","fields":{"table":"x_1020172_initia_0_ttc_request_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1020172_initia_0_ttc_request_details","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=0862540b78773950f8e0a1d702a56966"/>
 </record_update>
