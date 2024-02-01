@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="TTC User Details">5d62940b977739500ac1fef3a253afd2</category>
-        <columns/>
-        <condition/>
+        <category display_value="Request Details">4162940b977739500ac1fef3a253af9e</category>
+        <columns>number,active,from_date,requested_by,status,sys_updated_on</columns>
+        <condition table="x_1020172_initia_0_ttc_request_details">active=true^requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status=7^ORstatus=6^ORDERBYDESCsys_updated_on<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="requested_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item display_value="HR Rejected" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="7"/>
+            <item display_value="Account Manager Rejected" endquery="false" field="status" goto="false" newquery="false" operator="=" or="true" value="6"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_updated_on"/>
+        </condition>
         <configuration display_value="Top-Up Request Workspace_menu_config">8d62940b977739500ac1fef3a253af9b</configuration>
         <group_by_column/>
         <groups/>
@@ -51,26 +56,26 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>350</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-22 03:14:07</sys_created_on>
+        <sys_created_on>2024-01-31 04:27:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1962940b977739500ac1fef3a253afd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_id>29697ebd9348c2101470f7718bba108a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Rejected Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
-        <sys_update_name>sys_ux_list_1962940b977739500ac1fef3a253afd4</sys_update_name>
+        <sys_update_name>sys_ux_list_29697ebd9348c2101470f7718bba108a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-22 03:14:07</sys_updated_on>
-        <table>x_1020172_initia_0_ttc_user_details</table>
-        <title>All</title>
+        <sys_updated_on>2024-01-31 04:51:11</sys_updated_on>
+        <table>x_1020172_initia_0_ttc_request_details</table>
+        <title>My Rejected Request</title>
         <view/>
         <word_wrap>false</word_wrap>
     </sys_ux_list>

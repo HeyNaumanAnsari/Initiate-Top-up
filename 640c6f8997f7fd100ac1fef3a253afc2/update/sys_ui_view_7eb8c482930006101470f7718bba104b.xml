@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Finance_Workspace_Top_Up_Request</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 10:13:40</sys_created_on>
+        <sys_id>7eb8c482930006101470f7718bba104b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Workspace Top Up Request</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_ui_view_7eb8c482930006101470f7718bba104b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 10:13:40</sys_updated_on>
+        <title>Finance Workspace Top Up Request</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

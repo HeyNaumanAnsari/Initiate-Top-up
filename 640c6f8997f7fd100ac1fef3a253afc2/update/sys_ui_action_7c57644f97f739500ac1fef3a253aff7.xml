@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments>Approve Button For TDM</comments>
-        <condition>(current.request_details.status==1)||(current.request_details.status==2)</condition>
+        <condition>((current.request_details.status==1)||(current.request_details.status==2))&amp;&amp;(current.state!=3)</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>true</form_button_v2>
@@ -44,7 +44,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c57644f97f739500ac1fef3a253aff7</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
@@ -52,7 +52,7 @@ current.update();]]></script>
         <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
         <sys_update_name>sys_ui_action_7c57644f97f739500ac1fef3a253aff7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-30 09:54:04</sys_updated_on>
+        <sys_updated_on>2024-02-01 14:32:40</sys_updated_on>
         <table>x_1020172_initia_0_ttc_task_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

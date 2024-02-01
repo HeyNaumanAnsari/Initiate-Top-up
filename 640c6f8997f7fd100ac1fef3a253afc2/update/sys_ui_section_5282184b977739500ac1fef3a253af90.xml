@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b5c208e7977fb9500ac1fef3a253af08</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>4a8cdfb9930cc2101470f7718bba10a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>requested_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b9c208e7977fb9500ac1fef3a253af08</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>4e8cdfb9930cc2101470f7718bba10a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>from_date</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>bdc208e7977fb9500ac1fef3a253af08</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>428cdfb9930cc2101470f7718bba10a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,97 +46,111 @@
             <element>amount_to_be_loaded</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b1c208e7977fb9500ac1fef3a253af09</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>468cdfb9930cc2101470f7718bba10a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>activity.xml</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b5c208e7977fb9500ac1fef3a253af09</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>4a8cdfb9930cc2101470f7718bba10a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>028cdfb9930cc2101470f7718bba10a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>is_money_loaded</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b9c208e7977fb9500ac1fef3a253af09</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>068cdfb9930cc2101470f7718bba10a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>bdc208e7977fb9500ac1fef3a253af09</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>0a8cdfb9930cc2101470f7718bba10a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>to_date</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b1c208e7977fb9500ac1fef3a253af0a</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>0e8cdfb9930cc2101470f7718bba10a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>currency_to_be_loaded</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b5c208e7977fb9500ac1fef3a253af0a</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>028cdfb9930cc2101470f7718bba10a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>visa_copy</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-23 15:22:51</sys_created_on>
-            <sys_id>b9c208e7977fb9500ac1fef3a253af0a</sys_id>
+            <sys_created_on>2024-01-31 07:00:33</sys_created_on>
+            <sys_id>068cdfb9930cc2101470f7718bba10a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1020172_initia_0_ttc_request_details" sys_domain="global" view="4462540bcd77395013585e260f11a765">5282184b977739500ac1fef3a253af90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-23 15:22:51</sys_updated_on>
+            <sys_updated_on>2024-01-31 07:00:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

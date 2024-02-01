@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.request_details.status==1)||(current.request_details.status==2)</condition>
+        <condition>((current.request_details.status==1)||(current.request_details.status==2))&amp;&amp;(current.active)&amp;&amp;((current.state!=-5)||(current.state!=7)||(current.state!=3)||(current.state!=4))&amp;&amp;(gs.getUserID()!=current.request_details.requested_by)</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>true</form_button_v2>
@@ -43,7 +43,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f838a80f97f739500ac1fef3a253af1d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Send Back</sys_name>
         <sys_overrides/>
         <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
@@ -51,7 +51,7 @@ current.update();]]></script>
         <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
         <sys_update_name>sys_ui_action_f838a80f97f739500ac1fef3a253af1d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-30 09:56:06</sys_updated_on>
+        <sys_updated_on>2024-02-01 12:21:31</sys_updated_on>
         <table>x_1020172_initia_0_ttc_task_details</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="Top-Up Request Workspace_menu_config">8d62940b977739500ac1fef3a253af9b</configuration>
+        <description/>
+        <order>300</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 03:14:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d62940b977739500ac1fef3a253afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TTC User Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_ux_list_category_5d62940b977739500ac1fef3a253afd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 03:14:07</sys_updated_on>
+        <title>TTC User Details</title>
+    </sys_ux_list_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</application>
+        <file_path/>
+        <instance_id>c9128b81db2ef158b1eb9027c59619a3</instance_id>
+        <instance_name>dev211937</instance_name>
+        <name>sys_ux_list_category_5d62940b977739500ac1fef3a253afd2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Top-Up Request Workspace_menu_config">8d62940b977739500ac1fef3a253af9b</configuration>
+        <description/>
+        <order>300</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 03:14:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d62940b977739500ac1fef3a253afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TTC User Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_ux_list_category_5d62940b977739500ac1fef3a253afd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 03:14:07</sys_updated_on>
+        <title>TTC User Details</title>
+    </sys_ux_list_category>
+</record_update>]]></payload>
+        <payload_hash>-1032672889</payload_hash>
+        <record_name>TTC User Details</record_name>
+        <reverted_from/>
+        <source>5c4ae05d938002101470f7718bba10a4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 04:45:48</sys_created_on>
+        <sys_id>608ae45193c002101470f7718bba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5389afe60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 04:45:48</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>208ae4516fc0021069c69c8691aa6419</update_guid>
+        <update_guid_history>208ae4516fc0021069c69c8691aa6419:-1032672889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 05:05:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>9a64c5cf5d564bd39012e7a8d4198459</sys_id>
+        <sys_metadata>5d62940b977739500ac1fef3a253afd2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TTC User Details</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_scope_delete display_value="">a719d5f7d16944b4932ff70047823aa4</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_5d62940b977739500ac1fef3a253afd2</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_5d62940b977739500ac1fef3a253afd2">608ae45193c002101470f7718bba1019</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 05:05:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

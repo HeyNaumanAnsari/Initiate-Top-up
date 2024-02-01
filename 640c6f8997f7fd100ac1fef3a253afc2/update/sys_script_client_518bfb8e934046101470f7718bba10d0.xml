@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>from_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Top-Up: On Change Of FromDate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' ) {
+        return;
+    }
+    var toDate = g_form.getValue('toDate');
+
+
+    var valid = new GlideAjax('global.ValidationDate');
+    valid.addParam('sysparm_name', 'checkOneToAnotherPast');
+    valid.addParam('sysparm_toDate', toDate);
+    valid.addParam('sysparm_fromDate', newValue);
+    valid.getXML(callback);
+
+
+    function callback(response) {
+        var answer1 = response.responseXML.documentElement.getAttribute("answer");
+        if(answer1==='2'){
+			g_form.showFieldMsg('from_date','Past Date is not Valid For From Date','error',false);
+		} else if (answer1==='3'){
+// 			g_form.showFieldMsg('from_date','From Date Needs to be lower than To Date','error',false);
+		} else if(answer1==='4'){
+			g_form.showFieldMsg('to_date','To Date needs to be Greater than Today','',false);
+		}
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 04:00:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>518bfb8e934046101470f7718bba10d0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Top-Up: On Change Of FromDate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_script_client_518bfb8e934046101470f7718bba10d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 05:27:50</sys_updated_on>
+        <table>x_1020172_initia_0_ttc_request_details</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

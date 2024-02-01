@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0429fba997ff71500ac1fef3a253afa9" label="TTC Request Details" max_length="40" name="x_1020172_initia_0_ttc_request_details" text_index="true" type="collection">
         <element default="true" label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
-        <element label="Activity Stream" max_length="32" name="activity_stream" reference="sn_actsub_activity_stream" type="reference"/>
+        <element label="Activity Stream" max_length="32" name="activity_stream" read_only="true" reference="sn_actsub_activity_stream" type="reference"/>
         <element label="Amount to be loaded" mandatory="true" max_length="40" name="amount_to_be_loaded" type="string"/>
         <element label="Comments" max_length="400" name="comments" type="journal_input"/>
-        <element label="Currency to be loaded" mandatory="true" max_length="40" name="currency_to_be_loaded" type="string"/>
+        <element choice="1" label="Currency to be loaded" mandatory="true" max_length="40" name="currency_to_be_loaded" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="INR" sequence="0" value="inr"/>
+                <element inactive_on_update="false" label="USD" sequence="1" value="usd"/>
+                <element inactive_on_update="false" label="EUR" sequence="2" value="eur"/>
+                <element inactive_on_update="false" label="GBP" sequence="3" value="gbp"/>
+                <element inactive_on_update="false" label="AUD" sequence="4" value="aud"/>
+                <element inactive_on_update="false" label="CAD" sequence="5" value="cad"/>
+                <element inactive_on_update="false" label="CHF" sequence="6" value="chf"/>
+            </choice>
+        </element>
         <element default="javascript:var gr = new GlideRecord('x_1020172_initia_0_ttc_employee_details'); gr.addQuery('employee', current.requested_by); gr.addActiveQuery(); gr.query(); gs.info('from dynamic filter'+ gr); gr.sys_id" dynamic_default_value="3d2727ef97bff9500ac1fef3a253af10" label="Employee Details" max_length="32" name="employee_details" reference="x_1020172_initia_0_ttc_employee_details" type="reference" use_dynamic_default="true"/>
         <element label="From Date" mandatory="true" max_length="40" name="from_date" type="glide_date"/>
         <element label="Is Money Loaded" max_length="40" name="is_money_loaded" type="boolean"/>
@@ -22,6 +32,7 @@
                 <element inactive_on_update="false" label="Completed" sequence="7" value="8"/>
                 <element inactive_on_update="false" label="Send Back" sequence="8" value="9"/>
                 <element inactive_on_update="false" label="New" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Edit" sequence="10" value="11"/>
             </choice>
         </element>
         <element label="To Date" mandatory="true" max_length="40" name="to_date" type="glide_date"/>

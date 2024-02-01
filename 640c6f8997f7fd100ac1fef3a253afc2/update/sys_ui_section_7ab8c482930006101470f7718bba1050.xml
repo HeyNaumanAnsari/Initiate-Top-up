@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Finance Approval For Top-up Request " section_id="7ab8c482930006101470f7718bba1050" sys_domain="global" table="x_1020172_initia_0_ttc_task_details" version="3" view="Finance_Workspace_Top_Up_Request">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 10:18:48</sys_created_on>
+            <sys_id>0ee90006930006101470f7718bba10d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Approval For Top-up Request " display_value="Finance Approval For Top-up Request " name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="7eb8c482930006101470f7718bba104b">7ab8c482930006101470f7718bba1050</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 10:18:48</sys_created_on>
+            <sys_id>02e90006930006101470f7718bba10d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Approval For Top-up Request " display_value="Finance Approval For Top-up Request " name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="7eb8c482930006101470f7718bba104b">7ab8c482930006101470f7718bba1050</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 10:18:48</sys_created_on>
+            <sys_id>06e90006930006101470f7718bba10d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Approval For Top-up Request " display_value="Finance Approval For Top-up Request " name="x_1020172_initia_0_ttc_task_details" sys_domain="global" view="7eb8c482930006101470f7718bba104b">7ab8c482930006101470f7718bba1050</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 10:18:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Finance Approval For Top-up Request </caption>
+            <header>false</header>
+            <name>x_1020172_initia_0_ttc_task_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 10:13:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ab8c482930006101470f7718bba1050</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_1020172_initia_0_ttc_task_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+            <sys_update_name>sys_ui_section_7ab8c482930006101470f7718bba1050</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 10:18:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Finance Workspace Top Up Request" name="Finance_Workspace_Top_Up_Request">7eb8c482930006101470f7718bba104b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
