@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1020172_initia_0.validateDates</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>validateDates</name>
+        <script><![CDATA[var validateDates = Class.create();
+validateDates.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    validDate: function() {
+        var fromDate = new GlideDateTime(this.getParameter('sysparm_fromDate'));
+        var toDate = new GlideDateTime(this.getParameter('sysparm_toDate'));
+        var today = new GlideDateTime();
+
+        if (fromDate == null || toDate == null) {
+			return;
+        }
+		
+        if (fromDate.before(today) || toDate.before(today)) {
+            return 'Please select a date that is not from past or today';
+        }
+        if (toDate.before(fromDate)) {
+            return 'Please Select To Date After From Date';
+        }
+        return '1';
+    },
+    type: 'validateDates'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 09:52:35</sys_created_on>
+        <sys_id>55f5de26930802105fedf5532bba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateDates</sys_name>
+        <sys_package display_value="Initiate Top-Up Request" source="x_1020172_initia_0">640c6f8997f7fd100ac1fef3a253afc2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Initiate Top-Up Request">640c6f8997f7fd100ac1fef3a253afc2</sys_scope>
+        <sys_update_name>sys_script_include_55f5de26930802105fedf5532bba10b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 09:52:35</sys_updated_on>
+    </sys_script_include>
+</record_update>
